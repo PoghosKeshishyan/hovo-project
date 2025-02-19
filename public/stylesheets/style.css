@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #A723A7;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+
+.home_page_form label {
+  display: block;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 26px;
+}
+
+.home_page_form input {
+  font-size: 1.4rem;
+  padding: 5px 10px;
+  border: 1.5px solid #000;
+  border-radius: 4px;
+}
+
+.specific_number {
+  font-size: 36px;
+  text-align: center;
+}
+
+.specific_number p:last-child {
+  margin-top: 10px;
+  font-weight: 900;
+  text-decoration: underline;
+}

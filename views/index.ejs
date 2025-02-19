@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <script src="/javascripts/index.js" defer></script>
+  <title><%= title %></title>
+</head>
+<body>
+  <button onclick="localStorage.removeItem('specific_number');window.location.reload()" style="border: none;background: none;position: absolute;top: 20px;right: 20px;color: red;-webkit-text-stroke: 1px;font-size: 1.5rem;">&times;</button>
+
+  <form class="home_page_form">
+    <label>Enter your email</label>
+    <input type="email" name="email" placeholder="example@mail.ru">
+    <input type="submit" value="OK">
+  </form>
+
+</body>
+</html>
