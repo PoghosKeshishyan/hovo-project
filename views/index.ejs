@@ -3,11 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <link rel='stylesheet' href='/stylesheets/style.css'/>
   <script src="/javascripts/index.js" defer></script>
   <title><%= title %></title>
 </head>
 <body>
+  <button style="position: absolute; bottom: 10px;" onclick="localStorage.removeItem('specific_number'); window.location.reload()">remove</button>
+
+  <div class="logo">
+    <img src="/images/logo.png" alt="logo">
+
+    <a href="tel:095388868">
+      <img src="/images/phone-solid.svg" alt="tel-icon">
+      095 388 868
+    </a>
+  </div>
 
   <form class="home_page_form">
     <label>Enter your email</label>
